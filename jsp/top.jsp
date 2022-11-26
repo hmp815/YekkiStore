@@ -28,7 +28,7 @@
     	<script>
     		function goYEKKISTORE()
     		{
-    			var open = window.open();
+    			var open = window.open("","_parent");
 				open.location.href = "./YEKKISTORE.jsp";
     		}		
     	</script>

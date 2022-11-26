@@ -13,7 +13,7 @@
 			}
 			else
 			{
-				var open = window.open("abount:parent");
+				var open = window.open("","_parent");
 				open.location.href = "./YEKKISTORE.jsp";
 			}
 		</script>

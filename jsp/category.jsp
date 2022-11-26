@@ -3,7 +3,7 @@
 <html>
     <head>
     	<meta charset="UTF-8">
-		<link rel="stylesheet" href="../css/categorystyle.css?v=1 type = "text/css">
+		<link rel="stylesheet" href="../css/categorystyle.css?v=2 type = "text/css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<script>
 			function sendParam(index){
@@ -13,7 +13,7 @@
     </head>
     
    <body>
-   <script src = "../javascript/collapse.js"></script>
+  
    <form action = "./subMenuPro.jsp" method = "post">
     <div class = "category">
     	<ul class ="depth1">
@@ -39,14 +39,9 @@
          		  <button type = "button">Basket</button></a>
             </li>
        </ul>
-                                                    	 
-     </div>
-     </form> 
-                    
-    <!-- 검색창 박스 부분 -->             
-	<div class = "category01">
-    	<div class = "search-box">
-        	<form action = "." method = "post">
+       	<div class = "category01">
+    		<div class = "search-box">
+        	
         		<div class = "cell">
         			<input class = "search-txt" type = "text" placeholder = "Search">
         		</div>
@@ -55,9 +50,13 @@
         			<i class = "fas fa-search"></i>
         		</button>
         		</div>
-        	</form>
-    	</div>
-   </div>
+    		</div>
+   		</div>                                         	 
+     </div>
+</form> 
+                    
+    <!-- 검색창 박스 부분 -->             
+
 
 </body>
 </html>
