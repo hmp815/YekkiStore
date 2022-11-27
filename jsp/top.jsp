@@ -24,7 +24,7 @@
 <html>
     <head>
 		<meta charset="UTF-8">
-        <link rel="stylesheet" href="../css/topstyle.css?v=1" type = "text/css">
+        <link rel="stylesheet" href="../css/topstyle.css?v=3" type = "text/css">
     	<script>
     		function goYEKKISTORE()
     		{
@@ -51,10 +51,10 @@
 		<div id = "topMenu">
 	   	  <ul>
 	   		  <li><a class = "menuLink" href="logIn.jsp" target="_parent">
-              <button type ="button" >Sign in</button></a></li>
+              <button type ="button" class = "beforeLogin">Sign in</button></a></li>
               		
               <li><a class = "menuLink" href="signUp.jsp" target="_parent">
-              <button type ="submit">Sign up</button></a></li>
+              <button type ="submit" class = "beforeLogin">Sign up</button></a></li>
           </ul>
 	   </div>
 	   <%
@@ -65,11 +65,11 @@
 		<div id = "topMenu">
 	   	  <ul>
 	   		  <li><a class = "menuLink" href="logout.jsp" target="_parent">
-          	  <button type ="button" class = "afterLogin" ><img src = "../images/out.png">Sign out</button></a></li>
+          	  <button type ="button" class = "afterLogin1" ><img src = "../images/out.png">Sign out</button></a></li>
           	  
           	  
           	  <li><a class = "menuLink" href="myPage.jsp" target="main">
-     	      <button type ="button" class = "afterLogin"><img src = "../images/myinfo.png"><%=nickname %> 님</button>
+     	      <button type ="button" class = "afterLogin2"><img src = "../images/myinfo.png"><%=nickname %> 님</button>
      	      </a></li>
      	      
    		 </ul>

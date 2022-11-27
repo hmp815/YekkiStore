@@ -4,7 +4,7 @@
 <html lang="en" >
 <head>
         <meta http-equiv = "Content-Type" content = "text/html " charset="UTF-8">
-        <link rel="stylesheet" href="../css/editstyle.css?v=19" type = "text/css">
+        <link rel="stylesheet" href="../css/editstyle.css?v=20" type = "text/css">
         <meta name = "viewport" content = " width = device-width, initial-scale =1" >
         <script>
         	function ConfirmPW(){

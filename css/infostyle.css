@@ -5,15 +5,15 @@ span{
 	font-size : 30px;
 }
 .bg{
-	width : 30vw;
-	height : 40vh;
+	width : 40vw;
+	height : 50vh;
 	background-color : gainsboro;
 	margin : auto;
 	border-radius : 40px;
 }
 .myPage{
-	height : 40vh;
-	width : 30vw;
+	height : 50vh;
+	width : 40vw;
 	margin : auto;
 	margin-top : 20px;
 	display : table;
@@ -23,7 +23,7 @@ span{
 }
 .info{
 	vertical-align : middle;
-	width : 30vw;
+	width : 40vw;
 	margin : auto;
 	display : table-row;
 	margin-bottom : 10px;
@@ -31,14 +31,14 @@ span{
 }
 
 .cell1{
-	border-bottom : 2px solid DimGrey;
+	border-bottom : 1px solid black;
 	vertical-align : middle;
 	display : table-cell;
 	text-align : center;
 	color : Coral;
 }
 .cell2{
-	border-bottom : 2px solid DimGrey;
+	border-bottom : 1px solid black;
 	font-weight : bold;
 	display : table-cell;
 	text-align : left;

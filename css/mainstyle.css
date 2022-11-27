@@ -16,6 +16,7 @@ img{
 	width : 100vw;
 	height : 100vh;
 	overflow : auto;
+	padding: 0px 10px;
 }
 .active {
   background-color: #717171;

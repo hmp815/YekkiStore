@@ -41,7 +41,7 @@ input{
 }
 
 .cell1{
-	border-bottom : 2px solid DimGrey;
+	border-bottom : 1px solid black;
 	vertical-align : middle;
 	display : table-cell;
 	text-align : center;
@@ -50,7 +50,7 @@ input{
 }
 
 .cell2{
-	border-bottom : 2px solid DimGrey;
+	border-bottom : 1px solid black;
 	font-weight : bold;
 	display : table-cell;
 	text-align : left;
