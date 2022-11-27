@@ -33,6 +33,7 @@
         	}
         	.footer{
         		height :25vh;
+        		margin : 0;
         	}
         </style>
         </head>
@@ -48,7 +49,7 @@
        	  		<iframe src = "main.jsp"  scrolling = "no"  name = "main"   style = " width : 100%; height: 100vh; border : 0px; "><hr></iframe>
        	  </div>
        	  <div class ="footer">
-       	  	<hr>
+       	  	<jsp:include page = "./footer.jsp" flush = "false" />
        	  </div>
   
     </body>

@@ -4,14 +4,14 @@
 	overflow : visible;
 }
 
-.leftCategory{
+.category{
 	margin-top : 0px;
 	width :30vw;
 	height: 6vh;
 	margin-top : -10px;
 }
 
-.leftCategory > .depth1 >li { 
+.category > .depth1 >li { 
   display : inline-block; 
   list-style: none;                                    
   vertical-align: Text-top;     
@@ -22,20 +22,20 @@
    text-decoration:none;              
 }
              
-.leftCategory ul button:after {
+.category ul button:after {
     display : block;
     content : ' ';
     border-bottom : solid 3px Coral;
     transform : scaleX(0);
     transition : transform 250ms ease-in-out;;
 }
-.leftCategory ul button:hover:after{
+.category ul button:hover:after{
 	transform : scaleX(1);
 }
-.leftCategory ul button:hover{
+.category ul button:hover{
 	color : Coral;
 }
- .leftCategory ul button{
+ .category ul button{
    text-decoration : none;
    background : none;      
    border :3px;          
@@ -47,7 +47,7 @@
    font-size : 17px;
    margin-right :50px;
 }
-.leftCategory .subMenu{
+.category .subMenu{
 	overflow : visible;
 	display : none;
 	margin : 0;
@@ -67,7 +67,7 @@
 	list-style : none;
 }
 
-.leftCategory > ul > li:hover > ul{
+.category > ul > li:hover > ul{
 	display :block;
 }
 

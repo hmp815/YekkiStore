@@ -1,0 +1,70 @@
+body{
+	padding :0;
+	margin : 0;
+}
+.footerBox{
+	margin : auto;
+	width :100vw;
+	height :30vh;
+	text-align : center;
+	padding-top : 10px;
+}
+
+.topBox{
+	height :3vh;
+	margin-top : -10px;
+}
+.footerBox > .topBox > a{
+	text-align : center;
+	text-decoration : none;
+	color : black;
+	font-size : 12px;
+}
+.footerBox > .topBox > a:hover
+{
+    text-decoration: underline;
+    color: black;	
+}
+.footerBox > .topBox > a:after{
+	content: '|';
+	font-size :8px;
+	color : Grey;
+	margin : 0px 5px;
+	display : inline-block;
+	transform : translateY(-1px);
+}
+.footerBox > .topBox > a:last-child:after{
+	display : none;
+}
+
+.middleBox{
+	height : 15vh;
+	margin-top :10px;
+}
+
+.middleBox > .content{
+	display : inline-block;
+	width : 20vw;
+	
+}
+.middleBox > .content > span{
+	text-align : left;
+	font-size : 13px;
+} 
+
+.content > a{
+	text-decoration : none;
+	color : black;
+	font-size : 13px;
+	margin-left : 5px;
+}
+.content > a:hover
+{
+	text-decoration : underline;
+	color : black;
+}
+
+.rowBox{
+	background-color : LightGrey;
+	height : 12vh;
+}

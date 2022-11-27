@@ -15,7 +15,7 @@
    <body>
   
    <form action = "./subMenuPro.jsp" method = "post">
-    <div class = "leftCategory">
+    <div class = "category">
     	<ul class ="depth1">
     		<li>
     			<button type = "button" >Products</button>
