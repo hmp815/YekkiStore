@@ -121,12 +121,11 @@ s
     color: black;
     margin-right: 5px;
     margin-left: 7px;
-    /*살짝 내려가 있기 때문에 위로 올려주기 위해 transform 사용하기*/
     display: inline-block;
     transform: translateY(-1px);
 }
 
-.footer div a:last-child:after{
+.member > .footer > div > a:last-child:after{
     display : none;
 }
 

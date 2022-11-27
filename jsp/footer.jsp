@@ -3,7 +3,7 @@
 <html>
 <head>
 </head>
-	<link rel="stylesheet" href="../css/footerstyle.css?v=7 type = "text/css">
+	<link rel="stylesheet" href="../css/footerstyle.css?v=10 " type = " text/css">
 	<meta name = "viewport" content = " width = device-width, initial-scale =1" >
     <meta charset="UTF-8">
 <body>
@@ -25,7 +25,7 @@
 	    	<div class = "content">
 	    		<p><b>YEKKISTORE</b></p>
 	    		<span>부산광역시 해운대구 센텀서로 39 CJ대한통운</span><br>
-	    		<span>부산합정집배정 내 YEKKISTORE 물류센터</span>
+	    		<span>부산 해운대 집배정 내 YEKKISTORE 물류센터</span>
 	    		
 	    	</div>
 	    	<div class = "content">
@@ -38,7 +38,24 @@
 	    </div>
 	    
 	    <div class = "rowBox">
-	    
+	    	<div class = "snsBox">
+	    		<div class = "sns">
+	    			<img src = "../images/instagram.png">
+	    		</div>
+	    	
+	    		<div class = "sns">
+	    			<img src = "../images/facebook.png">
+	    		</div>
+	    	
+	    		<div class = "sns">
+	    			<img src = "../images/twitter.png">
+	    		</div>
+	    		<div class = "copyright">
+	    			<span>Copyright(c) 2023.All rights reserved by Hun&Yekki</span><br>
+	    			<span>Git : https://github.com/hmp815/YekkiStore</span><br>
+	    			<span>Thank You.</span>
+	    		</div>	    	
+	    	</div>
 	    </div>
 </div>
 

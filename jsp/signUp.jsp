@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv = "Content-Type" content = "text/html " charset="UTF-8">
 <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
-<link rel="stylesheet" href="../css/signupstyle.css?v=50" type = "text/css">
+<link rel="stylesheet" href="../css/signupstyle.css?v=1" type = "text/css">
 <script src="../javascript/signUpCheck.js"></script>
 </head>
 
@@ -101,7 +101,6 @@
     			<a href = "#none"> 이용약관</a>
     			<a href = "#none"> 개인정보처리방침</a>
     			<a href = "#none"> 고객센터</a>
-    			<a href = "#none"> 사실없어요</a>
     		<div>
     		<span>공동대표 : H&Y</span>
     	    </div>
