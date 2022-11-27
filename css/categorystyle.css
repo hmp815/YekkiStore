@@ -4,18 +4,16 @@
 	overflow : visible;
 }
 
-.category{
+.leftCategory{
 	margin-top : 0px;
-	display : table;
-	width :100vw;
+	width :30vw;
 	height: 6vh;
+	margin-top : -10px;
 }
 
-.category > .depth1 >li { 
+.leftCategory > .depth1 >li { 
   display : inline-block; 
-  list-style: none;           
-  color: white;              
-                 
+  list-style: none;                                    
   vertical-align: Text-top;     
   text-align: center;
   line-height : 30px;
@@ -24,21 +22,20 @@
    text-decoration:none;              
 }
              
-button:after {
+.leftCategory ul button:after {
     display : block;
     content : ' ';
     border-bottom : solid 3px Coral;
     transform : scaleX(0);
     transition : transform 250ms ease-in-out;;
 }
-button:hover:after{
+.leftCategory ul button:hover:after{
 	transform : scaleX(1);
 }
-button:hover{
+.leftCategory ul button:hover{
 	color : Coral;
 }
- button{
-   vertical-align : middle;
+ .leftCategory ul button{
    text-decoration : none;
    background : none;      
    border :3px;          
@@ -50,18 +47,27 @@ button:hover{
    font-size : 17px;
    margin-right :50px;
 }
-.category .subMenu{
+.leftCategory .subMenu{
 	overflow : visible;
 	display : none;
 	margin : 0;
 	padding : 0;
 }
+
+.rightCategory .search-box .cell button{
+	text-decoration :none;
+	background : none;
+} 
+
+.rightCategory .search-box .cell button:hover{
+	color : Coral;
+} 
+
 .subMenu{
 	list-style : none;
-	
 }
 
-.category > ul > li:hover > ul{
+.leftCategory > ul > li:hover > ul{
 	display :block;
 }
 
@@ -74,15 +80,12 @@ button:hover{
 	font-size : 25px;
 }
 
-.category01{
-	margin : 0;
-	padding-top : 0;
+.rightCategory{
+	padding-top : 5px;
 	position : absolute;
-	bottom : 15px;
+	bottom : 8px;
 	width : 20vw;
-	right :0px;
-	
-	
+	right :0px;	
 }
 .search-box{
 	margin-right :20px;
@@ -95,43 +98,38 @@ button:hover{
 	width : 300px;
 	vertical-align : middle;
 	padding : 5px;
-	bottom : 10px;
+	
 
 }
 .search-btn {
-  float : right;
-  color: #EDEDED;
-  width: 30px;
-  height: 30px;
+  margin-top : -6px;
+  display : absolute;
+  right : 20;
+  color:black;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background: #949BA0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top : -1px;
+  display:inline-block;
+  border :0;
+
 }
 
 .cell{
 	margin : 0;
 	padding : 0;
-	display : table-cell;
 	vertical-align : middle;
-	height : 25px;
-	width :50px;
-	
 }
 .search-txt {
-  width : 250px;
+  border : 0;
+  margin-top : -1px;
+  width : 260px;
   float: left;
   padding: 0;
   background: none;
-  border: none;
   outline: none;
   color: black;
   font-size: 15px;
   line-height: 25px;
-  vertical-align : middle;
-   margin-top : -3px;
 }
 .search-box:hover > form.search-txt{
 	width : 250px;
