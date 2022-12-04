@@ -18,6 +18,7 @@
 			session.setAttribute("LoginID",id);
 			response.sendRedirect("./YEKKISTORE.jsp");
 		}
+		rs.close();
 		pstmt.close();
 		conn.close();
 	} catch(SQLException ex){}

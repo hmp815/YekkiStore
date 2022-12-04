@@ -25,6 +25,7 @@
     	<input class = "userpw" type="password" name = "pw"  placeholder="Password" required/>
   </div>
   <input class="sub" type="submit" value = "Log in">
+  <input class="signup" type="button" value="Sign Up" onclick="location.href='./signUp.jsp'">
 </div>
 
 </form>

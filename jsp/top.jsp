@@ -30,6 +30,7 @@
     		{
     			var open = window.open("","_parent");
 				open.location.href = "./YEKKISTORE.jsp";
+				
     		}		
     	</script>
     </head>

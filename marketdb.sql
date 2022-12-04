@@ -19,6 +19,7 @@ create table products(
 	memberID varchar2(20),
 	title varchar2(100),
 	productName varchar2(10),
+	Explanation varchar2(800),
 	code varchar2(5),
 	price int,
 	image varchar2(20),

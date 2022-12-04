@@ -70,6 +70,11 @@ color:#fff
 	color : white;
 }
 
+.signup{
+    background-color: black;
+    color: white;
+    
+}
 @media (max-width:768px) {
     .member{
         width: 100%;

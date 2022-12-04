@@ -47,7 +47,6 @@
 		}
 		// while(rs.next()){}  : 왜안될까? 
 
-		
 	}catch(SQLException ex){}
 
 %>

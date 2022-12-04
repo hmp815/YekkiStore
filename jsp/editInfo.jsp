@@ -61,6 +61,7 @@
         gu = rs.getString(7);
         gil = rs.getString(8);
         account = rs.getString(9);
+        rs.close();
         pstmt.close();
 	    conn.close();
     }catch(SQLException ex){}
